@@ -40,7 +40,7 @@ public class ReadFile {
 	            e.printStackTrace();
 	        }
 			
-			//Get name of the company whose country is "VN"
+			//Get the name of the company whose country is "VN"
 			for (String[]row_temp:list) {
 				if(row_temp[4].equals("VN")) {
 					System.out.println(row_temp[1]);
