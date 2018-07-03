@@ -1,0 +1,10 @@
+{
+  "name": "javascript-roadmap",
+  "version": "0.0.1-SNAPSHOT",  
+  "scripts": {    
+    "start": "light-server -c bs-config.json"
+  },  
+  "devDependencies": {    
+    "light-server": "^1.1.7"    
+  }
+}

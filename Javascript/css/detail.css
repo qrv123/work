@@ -1,0 +1,45 @@
+.form-label {
+  float:left;
+  padding-top: 5px;
+  padding-right: 5px;
+  text-align: right;
+  width:  100px;
+}
+.form-label.error {
+  color: red;
+}
+.form-field {
+  float: left;
+  padding-top: 5px;
+}
+INPUT.error, SELECT.error {
+  border: 1px solid #FF0000;
+}
+.field-large {
+  width: 300px;
+}
+.field-small {
+  width: 40px;
+}
+.button-bar {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.form {
+  width: 420px;
+  /*
+  border: 1px solid #006600;
+  border-collapse: collapse;
+  */
+}
+.separator-line {
+  width: 410px;
+  /*height: 5px;*/
+  border-top: 1px solid #006600;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 12px;
+}

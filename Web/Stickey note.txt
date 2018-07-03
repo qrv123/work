@@ -1,0 +1,37 @@
+<a>
+<button> Click me </button>
+<br> empty tag || xuống dòng 
+style, font, size
+List : <ul> </ul> số
+         <ol> </ol> dấu chấm
+
+<i> Italic </i>
+
+npm config set proxy http://192.168.203.2:8080
+npm config set https-proxy http://192.168.203.2:8080 
+
+
+/*react js*/
+tutorial
+https://reactjs.org/tutorial/tutorial.html
+https://github.com/zkat/npx/issues/146
+https://github.com/npm/npm/issues/20791
+Project matrics
+
+/*html5  +  css3*/ 
+http://pal.elca.vn/#k=css3
+
+https://www.w3schools.com/html/html_iframe.asp
+
+http://pal.elca.vn/_layouts/15/WopiFrame.aspx?sourcedoc=/assetwithdocuments/html5-13.doc&action=default
+
+https://www.w3schools.com/tags/tag_a.asp
+
+
+/*Vertec*/
+19/06/2018
+   2h30 - 4h : Security training
+   6h30 : Internship
+20/06/2018
+   8h-12h : Intern
+   1h30 - 6h : Intern

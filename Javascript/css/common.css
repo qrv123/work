@@ -1,0 +1,14 @@
+BODY {
+  font-family: Arial;
+  font-size: 14px;
+}
+.form-title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+INPUT[type="TEXT"], input[type='button'], SELECT {
+  padding-left: 1px;
+  border: 1px solid black;
+  padding-left: 1px;
+}

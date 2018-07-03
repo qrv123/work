@@ -1,0 +1,40 @@
+#m01{
+	background-color : red;
+	color : green;
+	}
+body{
+	background-color:rgba(255,99,72,0.75);
+}
+
+p.first{
+	color:red ; 
+}
+
+p.second{
+	background-color: powderblue;
+	font-size : 12px;
+}
+
+#ul01 {
+	list-style-type: square;
+}
+
+#div01, #div02 {
+	background-color : tomato;
+}
+
+.Share{
+	background-color: powderblue;
+		
+}
+
+#msi{
+	width : 900;
+	height : 900;
+}
+
+.responsive{
+	float : left;
+	width : 25%;
+	background-color : red;
+}

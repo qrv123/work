@@ -1,0 +1,46 @@
+.tbl-header {
+  background-color: #7DA87D;
+  color: #FFFFFF;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.data-table {
+  background-color: #FFFFFF;
+  color: #000000;
+  margin: 3px;
+  border: 0px none;
+  font-size: 12px;
+}
+
+.data-row {
+  background-color: #E0F1E0;
+}
+.data-row td {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: left;
+}
+th.check-cell, td.check-cell {
+  width: 23px;
+  text-align: center;
+  padding: 0px;
+}
+th.check-cell INPUT, td.check-cell INPUT {
+  margin: 0px;
+  padding: 0px;
+}
+th.name-cell, td.name-cell {
+  width: 318px;
+}
+th.visa-cell, td.visa-cell {
+  width: 30px;
+}
+th.function-cell, td.function-cell {
+  width: 125px;
+}
+th.telext-cell, td.telext-cell {
+  width: 46px;
+}
+th.email-cell, td.email-cell {
+  width: 185px;
+}

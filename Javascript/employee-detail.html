@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Exercise - Employee detail</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link href="css/common.css" rel="stylesheet" />
+  <link href="css/detail.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="form">
+    <div class="form-title">New employee</div>
+
+    <div id="lbl_name" class="form-label">Name*</div><div class="form-field"><input type="text" id="name" class="field-large" title="This field is mandatory"/></div><div style="clear:both"></div>
+    <div id="lbl_visa" class="form-label">Visa*</div><div class="form-field"><input type="text" id="visa" maxlength="3" style="text-transform: uppercase" class="field-small" /></div><div style="clear:both"></div>
+    <div id="lbl_function" class="form-label">Function*</div><div class="form-field">
+        <select id="function">
+          <!-- Note that, this is just to ease this exercise. This the real case, option's value is usually not same as option label -->
+          <option value="Software Engineer" selected>Software Engineer</option>
+          <option value="Manager">Manager</option>
+          <option value="Senior Manager">Senior Manager</option>
+          <option value="Development Manager">Development Manager</option>
+          <option value="Assistant">Assistant</option>
+          <option value="Infrastructure">Infrastructure</option>
+          <option value="General Director">General Director</option>
+        </select>
+      </div><div style="clear:both"></div>
+    <div id="lbl_extension" class="form-label">Tel. extension</div><div class="form-field"><input type="text" id="extension" maxlength="3"  class="field-small" /></div><div style="clear:both"></div>
+    <div id="lbl_email" class="form-label">Email</div><div class="form-field"><input type="text" id="email" class="field-large"/></div><div style="clear:both"></div>
+
+    <div class="separator-line">(*) Mandatory field</div>
+    <div class="button-bar">
+      <input type="button" id="btn_save" value="Save"/>
+      <input type="button" value="Close"/>
+    </div>
+  </div>
+</body>
+</html>
