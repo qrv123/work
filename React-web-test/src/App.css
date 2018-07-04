@@ -2,7 +2,11 @@
   text-align: center;
 }
 
-.App-logo {
+.Optimus {
+  text-align: center;
+}
+
+#App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
