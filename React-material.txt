@@ -1,0 +1,5 @@
+https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/
+https://viblo.asia/p/react-proptypes-khai-bao-kieu-du-lieu-cho-component-naQZR1aPKvx
+https://developer.mozilla.org/vi/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+https://reactjs.org/community/examples.html
+https://reactjs.org/docs/components-and-props.html
