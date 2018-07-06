@@ -3,3 +3,15 @@ https://viblo.asia/p/react-proptypes-khai-bao-kieu-du-lieu-cho-component-naQZR1a
 https://developer.mozilla.org/vi/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 https://reactjs.org/community/examples.html
 https://reactjs.org/docs/components-and-props.html
+
+
+Babel JS ES6/ES7
+Babel JavaScript
+C/C++
+C/C++ Clang Command Adapter
+C++ Intellisense
+Debugger for Chrome
+Full React/React Native/React Router/...
+Quokka.js
+Sublime Babel
+Trailing Spaces
