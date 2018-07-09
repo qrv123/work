@@ -20,3 +20,6 @@ Trailing Spaces
 
 /*Kỹ thuật rút gọn code JavaScript với ES6*/
 https://viblo.asia/p/18-ki-thuat-rut-gon-code-javascript-cua-ban-Qbq5QqRL5D8
+
+/* Github dashboard */
+https://github.com/danielbayerlein/dashboard
