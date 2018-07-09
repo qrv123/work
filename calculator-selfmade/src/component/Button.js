@@ -7,7 +7,8 @@ class Button extends React.Component {
     constructor(){
         super();
         this.state = {
-            text : "Initial text"
+            text : "Initial text",
+            bt: "asd"
         };
     }
 
@@ -23,8 +24,12 @@ class Button extends React.Component {
         this.setState({text: text})
     }
 
-    click4 = (e) => {
-        this.setState({text: this.refs.textBox.value});
+    click4 = () => {
+        this.setState({text: this.refs.textBox.value})
+    }
+
+    update = (e) => {
+        this.setState({bt: this.refs.btalks.value});
     }
 
     render(){
@@ -38,9 +43,13 @@ class Button extends React.Component {
 
                 <h3><button onClick = {(a) => this.click3("Initial has just been modified")}>Set state</button></h3>
 
-                <input ref = "textBox" type="text" />
+                <input type="text" ref = "textBox" />
 
-                <h4><button onClick = {(e) =>{this.click4;}}>Set Text Box</button></h4>
+                <h4><button onClick = {this.click4}>Set Text Box</button></h4>
+
+                <h5><input type = "text" ref = "btalks" onChange={this.update} />{this.state.bt}</h5>
+
+                <h6><button onClick={this.click4.bind(this)}>Set State 2</button></h6>
             </div>
         );
     }
