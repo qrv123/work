@@ -25,9 +25,14 @@ class Button extends React.Component {
     }
 
     click4 = () => {
-        this.setState({text: this.refs.textBox.value})
-    }
 
+        if (this.refs.textBox.value == ("a" || "b")) {
+            this.setState({text: "Blank Space"});
+        }
+        else {
+            this.setState({text: this.refs.textBox.value})
+        }
+    }
     update = (e) => {
         this.setState({bt: this.refs.btalks.value});
     }
@@ -37,7 +42,7 @@ class Button extends React.Component {
             <div>
                 {this.state.text}
 
-                <h1><button onClick = {this.click1}>Button without Param</button></h1>
+                <h1><button className = "component-button" onClick = {this.click1}>Button without Param</button></h1>
 
                 <h2><button onClick = {(a , b) => this.click2("Hello", "You")}>Button with 2 param</button></h2>
 

@@ -1,4 +1,4 @@
-https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/
+﻿https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/
 https://viblo.asia/p/react-proptypes-khai-bao-kieu-du-lieu-cho-component-naQZR1aPKvx
 https://developer.mozilla.org/vi/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 https://reactjs.org/community/examples.html
@@ -17,3 +17,6 @@ Full React/React Native/React Router/...
 Quokka.js
 Sublime Babel
 Trailing Spaces
+
+/*Kỹ thuật rút gọn code JavaScript với ES6*/
+https://viblo.asia/p/18-ki-thuat-rut-gon-code-javascript-cua-ban-Qbq5QqRL5D8
