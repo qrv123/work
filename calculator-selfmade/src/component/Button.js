@@ -26,12 +26,15 @@ class Button extends React.Component {
 
     click4 = () => {
 
-        if (this.refs.textBox.value == ("a" || "b")) {
+        /*if (this.refs.textBox.value === {"a" || "b"}) {
             this.setState({text: "Blank Space"});
         }
         else {
             this.setState({text: this.refs.textBox.value})
-        }
+        }*/
+
+        (this.refs.textBox.value === "") ? this.setState({text:"BlankSpace"}) : this.setState({text: this.refs.textBox.value})
+
     }
     update = (e) => {
         this.setState({bt: this.refs.btalks.value});
