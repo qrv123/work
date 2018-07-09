@@ -1,13 +1,14 @@
-.btn{
+.component-button{
     display: inline-flex;
     width: 25%;
     flex: 1 0 auto;
 }
 
-.btn button {/*Các button nằm trong btn*/
-    background-color: #e0e0e0;
+.component-button button {/*Các button nằm trong btn*/
+    background-color: #f5923e;
     font-size: 1.5rem;
     /*margin: 0 1px 0 0;*/
-    flex: auto;
+    flex: 1 0 auto;
+    margin: 0 1px 0 0;
     border:  0; /*Bỏ viền của button*/
 }
