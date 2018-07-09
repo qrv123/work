@@ -1,0 +1,10 @@
+Cách 1:
+	npm start
+	
+Cách 2:
+	npm run build 
+	npm start
+	
+Cách 3:
+	npm cache clean --force
+	npm install -g npm@latest
