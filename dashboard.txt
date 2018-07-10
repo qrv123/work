@@ -16,3 +16,21 @@ Cách 4:
 
 /*Error 525: SSL handshake failed*/
 https://support.cloudflare.com/hc/en-us/articles/200278659-Error-525-SSL-handshake-failed
+
+/*CORS (Cross-Origin Resource Sharing)*/
+/*Access-Control-Allow-Origin header*/
+https://codeaholicguy.com/2018/05/07/cors-la-gi/
+
+Truy cập tài nguyên với fetch API
+If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+https://kipalog.com/posts/Cung-tim-hieu-cach-truy-cap-tai-nguyen-voi-fetch-API
+
+https://daynhauhoc.com/t/no-access-control-allow-origin-header-is-present-on-the-requested-resource/52682/8
+
+https://whitehat.vn/threads/same-origin-policy.4731/
+
+https://support.cloudflare.com/hc/en-us/articles/200278659-Error-525-SSL-handshake-failed
+
+https://developers.google.com/web/tools/chrome-devtools/network-performance/issues
+
+https://developers.google.com/web/tools/chrome-devtools/
