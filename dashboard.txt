@@ -1,4 +1,4 @@
-Cách 1:
+﻿Cách 1:
 	npm start
 	
 Cách 2:
@@ -8,3 +8,11 @@ Cách 2:
 Cách 3:
 	npm cache clean --force
 	npm install -g npm@latest
+
+Cách 4:
+	npm run dev
+
+
+
+/*Error 525: SSL handshake failed*/
+https://support.cloudflare.com/hc/en-us/articles/200278659-Error-525-SSL-handshake-failed
