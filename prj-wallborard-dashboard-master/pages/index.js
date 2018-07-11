@@ -26,7 +26,7 @@ export default () => (
 
     <JiraIssueCount
       title='JIRA Open Bugs'
-      //url='https://crossorigin.me/https://jira.atlassian.com'
+      // url='https://crossorigin.me/https://jira.atlassian.com'
       url='https://jira.atlassian.com'
       query='type=Bug AND project="Bitbucket Server" AND resolution=Unresolved ORDER BY priority DESC,created DESC'
     />
