@@ -34,3 +34,8 @@ https://support.cloudflare.com/hc/en-us/articles/200278659-Error-525-SSL-handsha
 https://developers.google.com/web/tools/chrome-devtools/network-performance/issues
 
 https://developers.google.com/web/tools/chrome-devtools/
+
+/*Fetch Data Reactjs*/
+https://www.robinwieruch.de/react-fetching-data/
+https://www.quora.com/How-can-I-get-data-from-Google-API-database
+https://kipalog.com/posts/Cung-tim-hieu-cach-truy-cap-tai-nguyen-voi-fetch-API
