@@ -46,7 +46,8 @@ export default class BitbucketPullRequestCount extends Component {
     const opts = authKey ? { headers: basicAuthHeader(authKey) } : {}
 
     try {
-      const res = await fetch(`${url}/rest/api/1.0/projects/${project}/repos/${repository}/pull-requests?limit=100`, opts)
+      var proxyUrl = 'https://cors-anywhere.herokuapp.com/'
+      const res = await fetch(proxyUrl + `${url}/rest/api/1.0/projects/${project}/repos/${repository}/pull-requests?limit=100`, opts)
       const json = await res.json()
 
       let count

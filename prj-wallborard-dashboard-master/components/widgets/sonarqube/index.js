@@ -86,7 +86,8 @@ export default class SonarQube extends Component {
     ].join(',')
 
     try {
-      const res = await fetch(`${url}/api/measures/component?componentKey=${componentKey}&metricKeys=${metricKeys}`, opts)
+      var proxyUrl = 'https://cors-anywhere.herokuapp.com/'
+      const res = await fetch(proxyUrl + `${url}/api/measures/component?componentKey=${componentKey}&metricKeys=${metricKeys}`, opts)
       const json = await res.json()
 
       this.setState({ error: false, loading: false, measures: json.component.measures })

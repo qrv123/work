@@ -69,7 +69,8 @@ export default class Jenkins extends Component {
     try {
       const builds = await Promise.all(
         jobs.map(async job => {
-          const res = await fetch(`${url}/job/${job.path}/lastBuild/api/json`, opts)
+          var proxyUrl = 'https://cors-anywhere.herokuapp.com/'
+          const res = await fetch(proxyUrl + `${url}/job/${job.path}/lastBuild/api/json`, opts)
           const json = await res.json()
 
           return {

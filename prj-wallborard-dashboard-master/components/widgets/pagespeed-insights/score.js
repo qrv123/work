@@ -51,6 +51,7 @@ export default class PageSpeedInsightsScore extends Component {
     try {
       const res = await fetch(`https://www.googleapis.com/pagespeedonline/v2/runPagespeed?${searchParams}`)
       const json = await res.json()
+      //console.log(json);
 
       this.setState({ error: false, loading: false, score: json.ruleGroups.SPEED.score })
     } catch (error) {

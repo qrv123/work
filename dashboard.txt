@@ -39,3 +39,6 @@ https://developers.google.com/web/tools/chrome-devtools/
 https://www.robinwieruch.de/react-fetching-data/
 https://www.quora.com/How-can-I-get-data-from-Google-API-database
 https://kipalog.com/posts/Cung-tim-hieu-cach-truy-cap-tai-nguyen-voi-fetch-API
+
+/*Work Around Dashboard*/
+https://stackoverflow.com/questions/43262121/trying-to-use-fetch-and-pass-in-mode-no-cors/43268098
