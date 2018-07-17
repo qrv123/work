@@ -43,8 +43,9 @@ export default class ElasticsearchHitCount extends Component {
     const opts = authKey ? { headers: basicAuthHeader(authKey) } : {}
 
     try {
-      var proxyUrl = 'https://cors-anywhere.herokuapp.com/'
-      const res = await fetch(proxyUrl + `${url}/${index}/_search?q=${query}`, opts)
+      // var proxyUrl = 'https://cors-anywhere.herokuapp.com/'
+      // const res = await fetch(proxyUrl + `${url}/${index}/_search?q=${query}`, opts)
+      const res = await fetch(`${url}/${index}/_search?q=${query}`, opts)
       const json = await res.json()
 
       this.setState({ count: json.hits.total, error: false, loading: false })

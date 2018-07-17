@@ -4,12 +4,17 @@ import "./Button.css"
 
 class Button extends React.Component {
 
-    constructor(){
-        super();
-        this.state = {
-            text : "Initial text",
+    // constructor(){
+    //     super();
+    //     this.state = {
+    //         text : "Initial text",
+    //         bt: "asd"
+    //     };
+    // }
+
+    state = {
+        text : "Initial text",
             bt: "asd"
-        };
     }
 
     click1 = () => {
