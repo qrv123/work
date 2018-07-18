@@ -10,13 +10,14 @@ import vn.elca.training.dom.Project;
 import vn.elca.training.dom.ProjectStore;
 import vn.elca.training.service.ProjectService;
 
-/**
+/*
  * 
  * @author coh
  *
  */
 @ContextConfiguration(locations = { "classpath:test-config.xml" })
 public class ProjectServiceImplTest extends AbstractJUnit4SpringContextTests {
+	
 	
 	@Autowired
 	private ProjectService projectService;
