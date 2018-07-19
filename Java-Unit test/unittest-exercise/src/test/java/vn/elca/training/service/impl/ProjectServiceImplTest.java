@@ -2,6 +2,7 @@ package vn.elca.training.service.impl;
 
 import java.util.List;
 
+import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.AbstractJUnit4SpringContextTests;
@@ -24,6 +25,7 @@ public class ProjectServiceImplTest extends AbstractJUnit4SpringContextTests {
 
 	// TODO [Task – 1] Add necessary configuration to make ProjectServiceImplTest.java runnable under JUnit.
 	
+	@Test
 	public void testFindProjectByName() {
 		// 1. Prepare data
 		insertProject("Project P1", 1001, "Customer C1", "COH");

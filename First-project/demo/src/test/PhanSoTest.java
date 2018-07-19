@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 
 import demo.PhanSo;
 
+import static org.fest.assertions.api.Assertions.*;
+
 class PhanSoTest {
 
 	@Test
