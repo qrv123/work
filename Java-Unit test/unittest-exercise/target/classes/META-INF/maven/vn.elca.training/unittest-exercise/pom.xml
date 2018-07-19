@@ -41,11 +41,11 @@
 			<artifactId>commons-lang</artifactId>
 			<version>${commons.lang.version}</version>
 		</dependency>
+		
 		<dependency>
-    		<groupId>junit</groupId>
-    		<artifactId>junit</artifactId>
-    		<version>4.12</version>
-    		<scope>test</scope>
+  		 	<groupId>org.easytesting</groupId>
+   			<artifactId>fest-assert-core</artifactId>
+   			<version>2.0M10</version>
 		</dependency>
 	</dependencies>
 </project>

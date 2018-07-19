@@ -2,6 +2,7 @@ package vn.elca.training.service.impl;
 
 import java.util.List;
 
+import org.apache.commons.lang.StringUtils;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
@@ -11,6 +12,7 @@ import vn.elca.training.dom.Project;
 import vn.elca.training.dom.ProjectStore;
 import vn.elca.training.service.ProjectService;
 
+import static org.fest.assertions.api.Assertions.*;
 /*
  * 
  * @author coh
@@ -36,8 +38,10 @@ public class ProjectServiceImplTest extends AbstractJUnit4SpringContextTests {
 		
 		// 3. Verify
 		// TODO [Task – 2] Fill MISSING points to verify the test result by using assertion library.
+		assertThat(result.get(0).getName()).containsIgnoringCase("P1");
 	}
 	
+	@Test
 	public void testFindProjectByNumber() {
 		// 1. Prepare data
 		insertProject("Project P3", 1001, "Customer C3", "COH");
@@ -47,6 +51,7 @@ public class ProjectServiceImplTest extends AbstractJUnit4SpringContextTests {
 		
 		// 3. Verify
 		// TODO [Task – 2] Fill MISSING points to verify the test result by using assertion library.
+		assertThat(result.get(0).getNumber()).isEqualTo(1001);
 	}
 	
 	// TODO [Task – 3] Install jacoco, run test and find missing tests cases for the function projectService.findByQuery based on jacoco report result
