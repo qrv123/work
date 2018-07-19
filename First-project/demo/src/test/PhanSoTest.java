@@ -1,12 +1,12 @@
 package test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
 import org.junit.jupiter.api.Test;
 
 import demo.PhanSo;
 
-import static org.fest.assertions.api.Assertions.*;
 
 class PhanSoTest {
 
