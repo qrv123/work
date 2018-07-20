@@ -1,5 +1,8 @@
 package vn.elca.training.service.impl;
 
+import java.io.Console;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.apache.commons.lang.StringUtils;
@@ -38,9 +41,13 @@ public class ProjectServiceImplTest extends AbstractJUnit4SpringContextTests {
 		
 		// 3. Verify
 		// TODO [Task – 2] Fill MISSING points to verify the test result by using assertion library.
-		assertThat(result.get(0).getName()).containsIgnoringCase("P1");
+		for (int i = 0; i < result.size(); i++) {
+			assertThat(result.get(i).getName()).contains("P1");
+		}
+		
+		
 	}
-	
+		
 	@Test
 	public void testFindProjectByNumber() {
 		// 1. Prepare data
@@ -48,14 +55,23 @@ public class ProjectServiceImplTest extends AbstractJUnit4SpringContextTests {
 		
 		// 2. Execute
 		List<Project> result = projectService.findByQuery("1001");
-		
+		//System.out.println(result.get(1).getName());
 		// 3. Verify
 		// TODO [Task – 2] Fill MISSING points to verify the test result by using assertion library.
-		assertThat(result.get(0).getNumber()).isEqualTo(1001);
+		for (int i = 0; i < result.size(); i++) {
+			assertThat(result.get(i).getNumber()).isEqualTo(1001);
+		}
 	}
 	
 	// TODO [Task – 3] Install jacoco, run test and find missing tests cases for the function projectService.findByQuery based on jacoco report result
-
+	
+	@Test
+	public void testEmptyInput() {
+		List<Project> result = projectService.findByQuery("");
+		assertThat(result.size()).isEqualTo(0);
+	}
+	
+	
 	private void insertProject(String name, int number, String customer, String leader) {
 		Project project = new Project();
 		project.setName(name);
