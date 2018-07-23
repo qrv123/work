@@ -28,6 +28,8 @@ export default () => (
       title='JIRA Open Bugs'
       // url='https://crossorigin.me/https://jira.atlassian.com'
       url='https://jira.atlassian.com'
+      //url='https://projectportal.elca.ch/jira/browse/ELCAVNPC-21'
+      //url='https://projectportal.elca.ch/jira/rest/api/2/search?jql=type=Bug'
       query='type=Bug AND project="Bitbucket Server" AND resolution=Unresolved ORDER BY priority DESC,created DESC'
     />
 
