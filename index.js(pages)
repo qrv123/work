@@ -25,7 +25,7 @@ export default () => (
     <PageSpeedInsightsStats url='https://github.com' /> */}
 
 
-    {/*Before enter url = 'https://projectportal.elca.ch/jira/rest/api/2/search?jql=type=Bug'
+    {/*Before enter url = 'https://projectportal.elca.ch/jira/browse/ELCAVNPC-21'
      The Browser auto enter https://auth.elca.ch/saml/idp/profile/redirectorpost/sso, after it has check the account,
      the Browser back to the url above*/}
     <JiraIssueCount
