@@ -34,6 +34,8 @@ export default () => (
     <BitbucketPullRequestCount
       title='Bitbucket Open PR'
       //url='https://crossorigin.me/https://bitbucket.typo3.com'
+
+      //https://jira.atlassian.com/rest/api/2/search?jql=type=Bug AND project="Bitbucket Server" AND resolution=Unresolved ORDER BY priority DESC,created DESC
       url='https://bitbucket.typo3.com'
       project='EXT'
       repository='blog'
